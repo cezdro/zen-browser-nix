@@ -52,7 +52,7 @@
 }:
 stdenv.mkDerivation (finalAttrs: {
   pname = "zen-browser";
-  version = "1.19.12b";
+  version = "1.19.13b";
 
   src = let
     repo = "https://github.com/zen-browser/desktop";
@@ -72,7 +72,7 @@ stdenv.mkDerivation (finalAttrs: {
     fetchzip {
       inherit url;
       inherit (archive) extension;
-      hash = "sha256-EmLciuwswY3ayD+62pxSNapyVBUnOQZlpzb65hs2Z80=";
+      hash = "sha256-saJiREF3XnCRymOv7r4q0Xqk/LgquWTY5tsobAIfOEY=";
     };
 
   runtimeLibs = [
